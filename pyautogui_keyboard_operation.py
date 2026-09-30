@@ -1,7 +1,9 @@
 import pyautogui
 import time
 import subprocess
+import pyscreeze
 
+'''
 # Open Notepad automatically
 subprocess.Popen("notepad.exe")
 
@@ -44,3 +46,7 @@ pyautogui.press("enter")
 pyautogui.keyDown("shift")
 pyautogui.write("hello")
 pyautogui.keyUp("shift")
+'''
+
+screenshot = pyautogui.screenshot()
+screenshot.save("final.png")  # Save the screenshot to a file
