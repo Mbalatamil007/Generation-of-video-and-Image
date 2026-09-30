@@ -19,3 +19,4 @@ pyautogui.dragTo(300, 300, duration=1)  # Drag the mouse to (300, 300) over 1 se
 pyautogui.scroll(-500)  # Scroll down 500 units
 time.sleep(3)  # Wait for 3 seconds
 pyautogui.scroll(1000)  # Scroll up 1000 units
+pyautogui.scroll(-1000)  # Scroll down 1000 units
